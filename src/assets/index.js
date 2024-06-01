@@ -20,8 +20,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import expressjs from "./tech/expressjs.png";
+import firebase from "./tech/firebase.png";
+import sql from "./tech/sql.png";
 
 import portfolio from "./portfolio.png";
+import ecomm from "./e-commerce.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -41,6 +44,8 @@ export {
 	html,
 	javascript,
 	mongodb,
+	firebase,
+	sql,
 	nodejs,
 	reactjs,
 	redux,
@@ -48,6 +53,7 @@ export {
 	typescript,
 	threejs,
 	portfolio,
+	ecomm,
 	jobit,
 	tripguide,
 };

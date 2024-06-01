@@ -18,6 +18,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 						src={image}
 						alt={name}
 						className="w-full h-full object-cover rounded-2xl"
+						onClick={() => window.open(project_link, "_blank")}
 					/>
 					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
 						<div
@@ -30,8 +31,20 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 				</div>
 
 				<div className="mt-5">
-					<h3>{name}</h3>
-					<p>{description}</p>
+					<h3 className="text-white font-bold text-[24px]">{name}</h3>
+					<p className="mt-2 text-secondary text-[14px]">{description}</p>
+				</div>
+
+				<div className="mt-4 flex flex-wrap gap-2">
+					{tags.map((tag) => {
+						const { color, name } = tag;
+
+						return (
+							<p key={name} className={`text-[14px] ${color}`}>
+								#{tag.name}
+							</p>
+						);
+					})}
 				</div>
 			</Tilt>
 		</motion.div>

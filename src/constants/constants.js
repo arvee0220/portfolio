@@ -18,6 +18,7 @@ import {
 	threejs,
 	expressjs,
 	portfolio,
+	ecomm,
 } from "../assets";
 
 export const navLinks = [
@@ -85,42 +86,50 @@ const projects = [
 			},
 		],
 		image: portfolio,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/arvee0220/portfolio",
 		project_link: "",
 	},
 	{
-		name: "Job IT",
+		name: "clothing store",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Simple e-commerce site I created using react that implements redux, firebase and stripe",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "firebase",
 				color: "green-text-gradient",
 			},
 			{
 				name: "scss",
 				color: "pink-text-gradient",
 			},
-		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-		project_link: "",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
 			{
-				name: "nextjs",
+				name: "stripe",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "redux",
+				color: "violet-text-gradient",
+			},
+		],
+		image: ecomm,
+		source_code_link: "https://github.com/arvee0220/clothing-store",
+		project_link: "clothingstore512.netlify.app/",
+	},
+	{
+		name: "Face Recognition App",
+		description:
+			"Project I created to practice fetching API at clarifai.com. This project detects human faces in photos.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "postgreSQL",
 				color: "green-text-gradient",
 			},
 			{
@@ -129,8 +138,8 @@ const projects = [
 			},
 		],
 		image: tripguide,
-		source_code_link: "https://github.com/",
-		project_link: "",
+		source_code_link: "https://github.com/arvee0220/faceRecognition",
+		project_link: "face-recognition-fawn.vercel.app",
 	},
 ];
 
