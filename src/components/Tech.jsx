@@ -8,7 +8,7 @@ import { styles } from "../styles";
 const Tech = () => {
 	return (
 		<>
-			<motion.div variants={textVariant}>
+			<motion.div variants={textVariant} className="mb-4">
 				<h2 className={styles.sectionHeadText}>Tech Stack</h2>
 			</motion.div>
 			<div className="flex flex-row flex-wrap justify-center gap-10">
