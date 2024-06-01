@@ -25,8 +25,7 @@ import sql from "./tech/sql.png";
 
 import portfolio from "./portfolio.png";
 import ecomm from "./e-commerce.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pubAdv from "./pubAdv.png";
 
 export {
 	logo,
@@ -54,6 +53,5 @@ export {
 	threejs,
 	portfolio,
 	ecomm,
-	jobit,
-	tripguide,
+	pubAdv,
 };

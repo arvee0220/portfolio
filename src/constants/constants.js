@@ -13,12 +13,11 @@ import {
 	mongodb,
 	git,
 	sass,
-	jobit,
-	tripguide,
 	threejs,
 	expressjs,
 	portfolio,
 	ecomm,
+	pubAdv,
 } from "../assets";
 
 export const navLinks = [
@@ -87,7 +86,7 @@ const projects = [
 		],
 		image: portfolio,
 		source_code_link: "https://github.com/arvee0220/portfolio",
-		project_link: "",
+		project_link: "https://rv0220portfolio.netlify.app",
 	},
 	{
 		name: "clothing store",
@@ -117,29 +116,24 @@ const projects = [
 		],
 		image: ecomm,
 		source_code_link: "https://github.com/arvee0220/clothing-store",
-		project_link: "clothingstore512.netlify.app/",
+		project_link: "https://clothingstore512.netlify.app/",
 	},
 	{
-		name: "Face Recognition App",
-		description:
-			"Project I created to practice fetching API at clarifai.com. This project detects human faces in photos.",
+		name: "Advice Generator",
+		description: "Project I created to practice fetching API.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "postgreSQL",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
+				name: "scss",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/arvee0220/faceRecognition",
-		project_link: "face-recognition-fawn.vercel.app",
+		image: pubAdv,
+		source_code_link: "https://github.com/arvee0220/adviceGenerator/tree/main",
+		project_link: "https://pub-advice.netlify.app/",
 	},
 ];
 

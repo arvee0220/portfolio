@@ -13,12 +13,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 				options={{ max: 45, scale: 1, speed: 450 }}
 				className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
 			>
-				<div className="relative w-full h-[230px]">
+				<div
+					className="relative w-full h-[230px]"
+					onClick={() => window.open(project_link, "_blank")}
+				>
 					<img
 						src={image}
 						alt={name}
 						className="w-full h-full object-cover rounded-2xl"
-						onClick={() => window.open(project_link, "_blank")}
 					/>
 					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
 						<div
