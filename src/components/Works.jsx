@@ -56,7 +56,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 const Works = () => {
 	return (
 		<>
-			<motion.div>
+			<motion.div variants={textVariant}>
 				<p className={styles.sectionSubText}>My work</p>
 				<h2 className={styles.sectionHeadText}>Projects</h2>
 			</motion.div>
@@ -65,7 +65,9 @@ const Works = () => {
 				<motion.p
 					variants={fadeIn("", "", 0.1, 1)}
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-				></motion.p>
+				>
+					Some of the projects I created while learning web development.
+				</motion.p>
 			</div>
 
 			<div className="mt-20 flex flex-wrap gap-7">
