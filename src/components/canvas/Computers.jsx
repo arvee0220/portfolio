@@ -16,7 +16,7 @@ const Computer = ({ isMobile }) => {
 				penumbra={1}
 				intensity={1.5}
 				castShadow
-				shadow-mapSize={1024}
+				shadow-mapSize={500}
 			/>
 			<primitive
 				object={computer.scene}
