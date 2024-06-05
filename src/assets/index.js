@@ -25,6 +25,7 @@ import sql from "./tech/sql.png";
 
 import portfolio from "./portfolio.png";
 import ecomm from "./e-commerce.png";
+import restau from "./restau.png";
 import pubAdv from "./pubAdv.png";
 
 export {
@@ -53,5 +54,6 @@ export {
 	threejs,
 	portfolio,
 	ecomm,
+	restau,
 	pubAdv,
 };

@@ -17,6 +17,7 @@ import {
 	expressjs,
 	portfolio,
 	ecomm,
+	restau,
 	pubAdv,
 } from "../assets";
 
@@ -117,6 +118,27 @@ const projects = [
 		image: ecomm,
 		source_code_link: "https://github.com/arvee0220/clothing-store",
 		project_link: "https://clothingstore512.netlify.app/",
+	},
+	{
+		name: "Maison De Luxe",
+		description: "Restaurant website that I'm currently working on",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "CSS",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Sass",
+				color: "violet-text-gradient",
+			},
+		],
+		image: restau,
+		source_code_link: "https://github.com/arvee0220/maison_de_luxe",
+		project_link: "https://maison-de-luxe.netlify.app/",
 	},
 	{
 		name: "Advice Generator",
