@@ -19,6 +19,7 @@ import {
 	ecomm,
 	restau,
 	pubAdv,
+	calculator,
 } from "../assets";
 
 export const navLinks = [
@@ -103,7 +104,7 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "Sass",
 				color: "pink-text-gradient",
 			},
 			{
@@ -149,13 +150,31 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "Sass",
 				color: "pink-text-gradient",
 			},
 		],
 		image: pubAdv,
 		source_code_link: "https://github.com/arvee0220/adviceGenerator/tree/main",
 		project_link: "https://pub-advice.netlify.app/",
+	},
+	{
+		name: "Calculator",
+		description:
+			"The main branch is the basic use of react useState hook while in context branch I implemented the Software Engineering Principle such as DRY, KISS, Separation of Concerns, Modularity and Encapsulation. I also implement the use of createContext and useContext hook",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Sass",
+				color: "violet-text-gradient",
+			},
+		],
+		image: calculator,
+		source_code_link: "https://github.com/arvee0220/calculator.git",
+		project_link: "https://rv0220-calculator.netlify.app/",
 	},
 ];
 
