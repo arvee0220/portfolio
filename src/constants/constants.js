@@ -122,7 +122,7 @@ const projects = [
 	},
 	{
 		name: "Maison De Luxe",
-		description: "Restaurant website that I'm currently working on",
+		description: "Restaurant website.",
 		tags: [
 			{
 				name: "react",
