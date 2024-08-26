@@ -184,7 +184,7 @@ const projects = [
 		tags: [
 			{
 				name: "nextJS",
-				color: "red-text-gradient",
+				color: "green-text-gradient",
 			},
 			{
 				name: "tailwind",
