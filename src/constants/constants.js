@@ -20,6 +20,7 @@ import {
 	restau,
 	pubAdv,
 	calculator,
+	deadpool,
 } from "../assets";
 
 export const navLinks = [
@@ -175,6 +176,27 @@ const projects = [
 		image: calculator,
 		source_code_link: "https://github.com/arvee0220/calculator.git",
 		project_link: "https://rv0220-calculator.netlify.app/",
+	},
+	{
+		name: "Deadpool website teaser",
+		description:
+			"A group project that my team and I created as part of our training at Codebility.",
+		tags: [
+			{
+				name: "nextJS",
+				color: "red-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "blue-text-gradient",
+			},
+			{ name: "typescript", color: "blue-text-gradient" },
+			{ name: "shadcn", color: "violet-text-gradient" },
+			{ name: "swiperjs", color: "orange-text-gradient" },
+		],
+		image: deadpool,
+		source_code_link: "https://github.com/arvee0220/deadpool-landing-p3",
+		project_link: "https://deadpool-landing-p3.vercel.app/",
 	},
 ];
 

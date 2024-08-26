@@ -28,6 +28,7 @@ import ecomm from "./e-commerce.png";
 import restau from "./restau.png";
 import pubAdv from "./pubAdv.png";
 import calculator from "./calculator.png";
+import deadpool from "./Deadpool.png";
 
 export {
 	logo,
@@ -58,4 +59,5 @@ export {
 	restau,
 	pubAdv,
 	calculator,
+	deadpool,
 };
